@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-end; */
+  height: 56px;
+  width: 100vw;
+  /* border: solid red 10px; */
+}
+
+.yt-icon {
+  padding: 8px;
+}
+
+.scroll--buttons {
+  height: 56px;
+  border-bottom: solid rgb(196, 196, 196) 1px;
+  border-top: solid rgb(196, 196, 196) 1px;
+}
+
+.scroll--buttons > button {
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 1rem;
+  margin-top: 0.7rem;
+  border: 1px solid lightgray;
+}
+
+.button--dark {
+  background-color: black;
+  color: white;
+  width: auto;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+/* videos main section */
+
+.video--container {
+  width: 100vw;
+  margin: auto;
+}
+
+.video--box {
+  /* width: 50vw; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.video--image {
+  width: 350px;
+  /* border: 1px solid black; */
+  margin: auto;
+  display: block;
+}
+
+.video--card {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.video--icon {
+  border-radius: 50%;
+  max-width: 40px;
+  height: 40px;
+  margin-left: 4.5rem;
+}
+
+.text--align {
+  padding-left: 1rem;
+  width: 250px;
+}
+
+.text--grey {
+  font-size: small;
+  color: darkgray;
+  margin-top: 4px;
+}
