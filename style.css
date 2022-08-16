@@ -1,28 +1,34 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "roboto";
 }
-
 .nav {
   display: flex;
   flex-direction: row;
-  /* align-items: flex-end; */
+  align-content: center;
   height: 56px;
   width: 100vw;
   /* border: solid red 10px; */
 }
 
+nav:hover {
+  cursor: pointer;
+}
 .yt-icon {
   padding: 8px;
 }
 
 .profile--icon {
   border-radius: 50%;
+  margin-left: 1rem;
+  padding-bottom: 3px;
 }
 .scroll--buttons {
   height: 56px;
   border-bottom: solid rgb(196, 196, 196) 1px;
   border-top: solid rgb(196, 196, 196) 1px;
+  cursor: pointer;
 }
 
 .scroll--buttons > button {
@@ -49,6 +55,7 @@ button:hover {
 .video--container {
   width: 100vw;
   margin: auto;
+  cursor: pointer;
 }
 
 .video--box {
@@ -77,7 +84,9 @@ button:hover {
   height: 40px;
   margin-left: 4.8rem;
 }
-
+/* .video--checkmark {
+  color: rgb(196, 196, 196);
+} */
 .text--align {
   padding-left: 1rem;
   width: 250px;
